@@ -10,7 +10,6 @@ class JenkinsTestApplicationTests {
 
 	@Test
 	void contextLoads() {
-		
 		assertEquals(true, true);
 	}
 
