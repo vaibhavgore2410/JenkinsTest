@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import jakarta.annotation.PostConstruct;
 
 @SpringBootApplication
 @RestController
@@ -19,7 +18,7 @@ public class JenkinsTestApplication {
 		SpringApplication.run(JenkinsTestApplication.class, args);
 	}
 
-	@PostConstruct
+	@javax.annotation.PostConstruct
 	public void init() {
 		logger.info("Initialized JenkinsTest App");
 	}
