@@ -20,7 +20,7 @@ public class JenkinsTestApplication {
 
 	@javax.annotation.PostConstruct
 	public void init() {
-		logger.info("Initialized JenkinsTest App");
+		logger.info("Initialized JenkinsTest App From git commit");
 	}
 	
 	@GetMapping("/hi")
